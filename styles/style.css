@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* ---------END OF CSS RESET----------  */
+
+
+.wrapper{
+	text-align: center;
+}
+.logo{
+	padding-top: 30px;
+}
+
+.head_bg{
+	background-image: url("../images/skyblack.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: top center;
+	width: 100%;
+	height: 800px;
+}
+
+.header{
+	width: 930px;
+	margin:0 auto;
+
+}
+
+.head_nav_bar{
+	margin-top: 80px;
+}
+
+.head_nav_bar ul li{
+	float: left;
+    display: block;
+    margin-left: 103px;
+    margin-right: 93px;
+    font-size: 35px;
+}
+
+.head_nav_bar a {
+	text-decoration: none;
+	color: black;
+}
+
+.head_nav_bar a:hover {
+	color: orange;
+	transition: .4s ease;
+}
+
+.arrow {
+	padding-top: 230px;
+}
+
+.content{
+	width:100%;
+}
+
+h3 {
+	font-size: 90px;
+	margin-top: 80px;
+}
+
+
+.cont_h{
+	
+	margin-bottom: 80px;
+}
+
+
+.cont_gal{
+	position: relative;
+    top: 0;
+    left: 44px;
+}
+
+.cont_pic{
+	position: relative;
+	width: 30%;
+	float: left;
+	margin-left: 14px;
+}
+
+.gal_image{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: black;
+}
+
+.cont_pic:hover .overlay{
+	opacity: 0.8;
+}
+
+.image_text{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 40%;
+	left: 21%;
+	-ms-transform: translate(-50%, -50%);
+}
+
+.bg_zebra {
+	clear: both;
+	background-image: url("../images/zebra.jpg");
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.underzebra .about_h{
+    margin-bottom: 30px;
+}
+
+.underzebra p {
+	margin-bottom:80px;
+}
+
+.underzebra , .feedback{
+	width: 750px;
+	margin:0 auto;
+}
+
+.bg_central{
+	background-image: url("../images/central.jpg");
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.feedback .feedback_h{
+	margin-bottom: 50px;
+}
+
+.feedback_form input ,textarea {
+	margin-bottom: 5px;
+}
+
+.feedback_form{
+	margin-bottom: 60px;
+}
+
+.send_form{
+	float: right;
+	margin-right: 28px;
+	background-color: black;
+	color: white;
+	border:none;
+	width: 90px;
+	height: 32px;
+	font-size: 17px;
+}
+
+.info_mysite{
+	float: left;
+	margin-left: 330px;
+}
+
+.info_mysite a{
+	text-decoration:none;
+}
+
+.soc_icons{
+	margin-left: 465px;
+}
+
+.soc_icons ul li {
+	float: left;
+	margin-left: 10px;
+	list-style: none;
+}
+
+.footer{
+	margin-top: 150px;
+	width: 100%;
+	height: 55px;
+	background-color: orange;
+	text-align: left;
+	clear: both;
+}
+
+.footer p {
+	margin-left: 333px;
+	padding-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
