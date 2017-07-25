@@ -9,7 +9,8 @@
 /* ----GENERAL---- */
 
 body {
-
+	font-family: Georgia , arial , sans-serif;
+	color: #999999;
 }
 
 /* ----HEADER---- */
@@ -124,13 +125,42 @@ nav ul li a:hover {
 	height:100%;
 }
 
+.slider-content {
+	width: 564px;
+	height: 317px;
+	padding-top: 65px;
+	padding-left: 65px;
+	float: right;         /* after display minimize float effect reaction ?????????  */
+}
 
+h1 {
+	font-size: 42px;
+	color: #4a4a4a;
+	font-weight: 100;
+}
 
+.slider-content p {
+	padding: 30px 0;
+}
 
+.slider-content .read-more {
+	width: 125px;
+	height: 32px;
+	background-color: #3bafbe;
+	text-align: center;
+	line-height: 2;
+	border-radius:7px;
+	cursor: pointer;
+}
 
+.slider-content .read-more a {
+	text-decoration: none;
+	color: #ffffff;
+}
 
+/* ----END OF SLIDER---- */
 
-
+/* ----SECTION---- */
 
 section {
 	clear: both;
