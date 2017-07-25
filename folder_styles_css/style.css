@@ -148,12 +148,27 @@ hr{
  margin-top:60px;
 }
 .slide_active_news{
- margin-top: 35;
- margin-left: 480;
+ margin-top:35;
+ margin-left:420;
 }
+.slide_button {	
+ display:inline-block;
+ width:20px;
+ height:20px; 
+ margin: 0 2px;
+ border-radius:50%;
+ background-color:#00cccc;  
+ cursor:pointer;  
+}
+.active_slide_button {
+ border:4px solid #00cccc;
+ background-color:black;
+}
+
 /*CONTENT ACTIVE NEWS-END*/
 
 /*INFO TITLE-START*/
+
 .home_info_container{
  margin-top: 80px;
  margin-bottom:80px;
@@ -180,6 +195,7 @@ hr{
  margin-top:20px;
 }
 /*INFO TITLE-END*/
+
 /*CONTAINER NEWS CURRENT NEWS-START*/
 .quote_in_news_cotainer{
  margin-top:80px;
