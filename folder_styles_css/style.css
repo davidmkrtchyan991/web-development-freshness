@@ -4,7 +4,7 @@
 }
 /*GLOBAL SELECTORS-START*/
 
-.text_in_website{
+.all_pargraphs_spam_text_container{
  color:grey;
  letter-spacing:2px;
 }
@@ -38,6 +38,10 @@
 }
 .display_block_container{
  display:inline-block;
+}
+.text_in_footer{
+ font-variant:small-caps;
+ font-weight:normal;
 }
 /*GLOBAL SELECTORS-END*/
 
