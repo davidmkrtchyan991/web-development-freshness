@@ -203,8 +203,14 @@ footer a{
 footer a:hover{
  color:orange;
 }
-.contacts_container{
- margin-left:300px;
+.footer_container_contacts_form{
+ width:1900px;
+ height:280px;
+}
+.copyright{
+ width:1900px;
+ height:60px;
+ background-color:black;
 }
 .p_in_footer{
  color:white;
@@ -219,31 +225,27 @@ footer a:hover{
 }
 .footer_copyright{
  display:inline-block;
- margin-top:50px;
- margin-left:200px;
+ margin-left: 310px;
+ margin-top: 20px;
 }
 .footer_template{
  display:inline-block;
- margin-top:50px;
- margin-left:500px;
+ margin-left:530px;
+ margin-top:20px;
+}
+.contacts_container{
+margin-left:310px;
 }
 .links_container{
- position: relative;
- bottom: 80px;
- }
+margin-left:40px;
+}
 .blog_container{
- position: relative;
- bottom: 68px;
- left:55px;
+margin-left:50px;
 }
 .form_in_footer{
- position: relative; 
- bottom: 10px;
- left:95px;
+margin-left:50px;
 }
-.copyright{
-background-color:black;
-}
+
 /*FOOTER END*/
 
 
