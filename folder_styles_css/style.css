@@ -99,6 +99,7 @@ nav>ul>li>a:hover{
 }
 .search_input::-webkit-input-placeholder{
  color:white;
+ 
 }
 .search_submit{
  width:80px;
@@ -114,7 +115,7 @@ hr{
 .active_news_container{
  display: inline-block;
  margin-top: 125px;
- margin-left:255px;
+ margin-left: 310px;
  margin-bottom:35px;
 }
 .news_image{
@@ -142,12 +143,12 @@ hr{
 .info_title_home{
  float: left;
  display: inline-block;
- margin-left: 350px;
+ margin-left: 285px;
 }
 .info_title_time{
  display: inline-block;
- padding-left: 45px;
- padding-right: 45px;
+ padding-left: 105px;
+ padding-right: 105px;
 }
 .info_title_vine{
  display: inline-block;
