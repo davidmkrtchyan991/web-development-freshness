@@ -116,8 +116,8 @@ nav ul li a:hover {
 
 .monitor-img {
 	width: 398px;
-	height: 317px;
-	float: left;
+	               /* without height property the same */
+	
 }
 
 .monitor-img img {
@@ -126,11 +126,12 @@ nav ul li a:hover {
 }
 
 .slider-content {
-	width: 564px;
-	height: 317px;
-	padding-top: 65px;
-	padding-left: 65px;
-	float: right;         /* after display minimize float effect reaction ?????????  */
+	position: relative;
+    top: -263px;
+    left: 450px;
+    max-width: 520px;
+                         /* without height property the same */
+	                    /* after display minimize float effect reaction ?????????  */
 }
 
 h1 {
@@ -162,9 +163,6 @@ h1 {
 
 /* ----SECTION---- */
 
-section {
-	clear: both;
-}
 
 
 
