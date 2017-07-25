@@ -27,7 +27,7 @@
 .global_paragraphs{
  color:#333333;
 }
-.line_between_lines{
+.line{
  margin: 0 auto;
  width:70%;
 }
@@ -50,8 +50,20 @@
  font-size:33px;
  color:black;
 }
-.icons_in_header i:hover{
- color:orange;
+.in_icon:hover{
+ color:gold;
+}
+.twitter_icon:hover{
+ color:4099FF;
+}
+.pinterest_icon:hover{
+ color:C92228;
+}
+.google_plus_icon:hover{
+ color:D34836;
+}
+.rss_icon:hover{
+ color: FF6600;
 }
 .header_paragraph{
  margin-left:10px;
@@ -180,7 +192,7 @@ hr{
 .small_pargraph_current_news a:hover{
  color:orange;
 }
-.line{
+.line_in_current_news{
  text-align: center;
  padding-bottom: 70px;
 }
