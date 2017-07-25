@@ -13,6 +13,14 @@ body {
 	color: #999999;
 }
 
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
 /* ----HEADER---- */
 
 .wrapper {
@@ -163,15 +171,40 @@ h1 {
 
 /* ----SECTION---- */
 
+section {
+	padding: 50px 0;
+	border-bottom: 1px solid #e2e2e2;
+}
 
+.section-content {
+	display: table-cell;
+}
 
+h3 {
+	padding-top: 25px;
+}
 
+.section-content p {
+	padding: 25px 0;
+}
 
+.section-content .read-more {
+	width: 106px;
+	height: 32px;
+	background-color: #3bafbe;
+	text-align: center;
+	line-height: 2;
+	border-radius:7px;
+	cursor: pointer;
+}
 
+.section-content .read-more a {
+	color: #ffffff;
+}
 
+/* ----END OF SECTION---- */
 
-
-
-
-
+.article-header {
+	text-align: center;
+}
 
