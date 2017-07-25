@@ -19,13 +19,13 @@ body {
 	border-top: 5px solid #3bafbe;
 }
 
-.conten-max-width{
+.content-max-width{
 	max-width: 962px;
+	margin:0 auto;
 }
 
 header {
 	height: 143px;
-	margin:0 auto;
 	padding-top: 25px;
 	border-bottom: 1px solid #e2e2e2;
 }
@@ -33,7 +33,6 @@ header {
 .header-social-logo {
 	display: table-cell;
 	width: 323px;
-	outline: 1px solid red;
 }
 
 .social ul li {
@@ -43,6 +42,8 @@ header {
 .logo {
 	width: 158px;
 	height: 42px;
+	position: relative;
+	top: 20px;
 }
 
 .freshness_logo {
@@ -54,12 +55,34 @@ header {
 	display: table-cell;
 	width: 643px;
 	text-align: right;
-	outline: 1px solid green;
 }
 
-.header-search-nav .search {
+.search {
     position: relative;
-    bottom: 18px;
+    bottom: 12px;
+}
+
+.search input {
+	height: 32px;
+	border-radius: 7px;
+	border:none;
+}
+
+.search input#search {
+	width: 288px;
+	background-color: #333333;
+}
+
+.search input#submit {
+	width: 68px;
+	background-color: #3bafbe;
+	color: #ffffff;
+}
+
+nav {
+	position: relative;
+    right: 0;
+    top: 35px;
 }
 
 nav ul li {
@@ -79,3 +102,48 @@ nav ul li a {
 nav ul li a:hover {
 	color: #3bafbe;
 }
+
+/* ----END OF HEADER---- */
+
+/* ----SLIDER---- */
+
+.slider {
+	height: 418px;
+	padding-top: 50px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.monitor-img {
+	width: 398px;
+	height: 317px;
+	float: left;
+}
+
+.monitor-img img {
+	width: 100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+section {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
