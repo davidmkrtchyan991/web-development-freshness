@@ -13,15 +13,16 @@
 		<div class="header_innerwrapper">
 			<div class="header_icons">
 				<div class="socials">
-					<a href="https://www.linkedin.com/" target="_blank" title="Find Us On Linkedin">
+					<a href="https://www.linkedin.com/" target="_blank" title="Find Us On Linkedin" class="ld_icon">
 					<i class="fa fa-linkedin icon"></i></a>
-					<a href="https://twitter.com/?lang=en" target="_blank" title="Find Us On Twitter">
+					<a href="https://twitter.com/?lang=en" target="_blank" title="Find Us On Twitter" class="tw_icon">
 					<i class="fa fa-twitter icon"></i></a>
-					<a href="https://www.pinterest.com/" target="_blank" title="Find Us On Pinterest">
+					<a href="https://www.pinterest.com/" target="_blank" title="Find Us On Pinterest" class="p_icon">
 					<i class="fa fa-pinterest icon"></i></a>
-					<a href="https://plus.google.com/explore" target="_blank" title="Find Us On Google Plus">
+					<a href="https://plus.google.com/explore" target="_blank" title="Find Us On Google Plus" class="gp_icon">
 					<i class="fa fa-google-plus-circle icon"></i></a>
-					<a href="https://www.rss.com/" target="_blank"><i class="fa fa-rss icon"></i></a>
+					<a href="https://www.rss.com/" target="_blank" class="rss_icon">
+					<i class="fa fa-rss icon"></i></a>
 				</div>
 				<div class="logo">
 					<h1>Freshness</h1>
@@ -30,7 +31,7 @@
 			</div><!-- End of header_icons-->
 			<div class="header_menu">
 				<form action="/action_page.php" method="post" autocomplete="off">
-					<input type="search" name="search" placeholder="Sarch Our Website..." maxlength="60"/>
+					<input class="search" type="search" name="search" placeholder="Sarch Our Website..." maxlength="60"/>
 					<input type="submit" value="SEARCH" class="btn"/>
 				</form>
 				<nav>
@@ -48,7 +49,7 @@
 	</header>	
 
 	<div class="slider">
-		<div class="slider_innerwrapper clearfix border">
+		<div class="slider_innerwrapper border">
 			<div class="slider_image">
 				<img src="images/computer.png" alt="Computer"/>
 			</div>
@@ -149,52 +150,58 @@
 	</div><!-- End of services -->
 
 	<div class="contact">
-		<div class="contact_innerwrapper">
-			<div class="contact_sectionWrapper">
-				<div class="contact_section contactDetails">			
-					<ul>
-						<li class="contact_sectiontitle">Contact Details</li>				
-						<li>Company Name</li>
-						<li>Street Name &#38; Number</li>
-						<li>Town</li>
-						<li>Postcode&#47;Zip</li>
-						<li>Tel&#58; xxxx xxxxxxxxx</li>
-						<li>Fax&#58; xxxx xxxxxxxxx</li>
-						<li>Email&#58; <a href="#">&#64;mydomain.con</a></li>
-					</ul>
+		<div class="contact_innerwrapper">			
+				<div class="contact_section">
+					<div class="details">			
+						<ul>
+							<li class="contact_sectiontitle">Contact Details</li>				
+							<li>Company Name</li>
+							<li>Street Name &#38; Number</li>
+							<li>Town</li>
+							<li>Postcode&#47;Zip</li>
+							<li>Tel&#58; xxxx xxxxxxxxx</li>
+							<li>Fax&#58; xxxx xxxxxxxxx</li>
+							<li>Email&#58; <a href="#">&#64;mydomain.con</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="contact_section quickLinks">
-					<ul>
-						<li class="contact_sectiontitle">Quick Links</li>
-						<li><a href="#">Link Text Here</a></li>
-						<li><a href="#">Link Text Here</a></li>
-						<li><a href="#">Link Text Here</a></li>
-						<li><a href="#">Link Text Here</a></li>		
-					</ul>
+				<div class="contact_section">
+					<div class="links">
+						<ul>
+							<li class="contact_sectiontitle">Quick Links</li>
+							<li><a href="#">Link Text Here</a></li>
+							<li><a href="#">Link Text Here</a></li>
+							<li><a href="#">Link Text Here</a></li>
+							<li><a href="#">Link Text Here</a></li>		
+						</ul>
+					</div>
 				</div>
-				<div class="contact_section blog">
-					<p class="contact_sectiontitle">From The Blog</p>
-					<p>Blog Post Title</p>
-					<p>Posted By Admin on 00.00.0000</p>
-					<p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.</p>
-					<span>Read More &#187;</span>
+				<div class="contact_section">
+					<div class="blog">
+						<p class="contact_sectiontitle">From The Blog</p>
+						<p class="blog_title">Blog Post Title</p>
+						<p class="blog_author">Posted By Admin on 00.00.0000</p>
+						<p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed facilispede estibulum.</p>
+						<span>Read More &#187;</span>
+					</div>
 				</div>
-				<div class="contact_section news">
-					<form action="/action_page.php" method="post">
-						<legend class="contact_sectiontitle">Newsletter</legend>
-						<input type="text" name="fname" placeholder="Name" maxlength="25" required="required"/>
-						<input type="email" name="email" placeholder="Email" maxlength="45" required="required"/>
-						<input type="submit" value="SUBMIT" class="btn"/>
-					</form>
-				</div>
-			</div><!-- contact_sectionWrapper-->
+				<div class="contact_section">
+					<div class="news">
+						<form action="/action_page.php" method="post">
+							<legend class="contact_sectiontitle">Newsletter</legend>
+							<input class="input" type="text" name="fname" placeholder="Name" maxlength="25" required="required"/>
+							<input class="input" type="email" name="email" placeholder="Email" maxlength="45" required="required"/>
+							<input type="submit" value="SUBMIT" class="btn"/>
+						</form>
+					</div>
+				</div>			
 		</div><!-- End of contact_innerwrapper-->		
 	</div><!-- End of contact -->
 
 	<footer>
-		<div class="footer_innerwrapper clearfix">
-			<p>Copyright &#169; 2013 Domain Name - All Rights Reserved</p>
-			<p>Template by OS Templates</p>
+		<div class="footer_innerwrapper">
+			<p class="copyright">Copyright &#169; 2013 Domain Name - All Rights Reserved</p>
+			<p class="author">Template by OS Templates</p>
 		</div>		
 	</footer>
 
