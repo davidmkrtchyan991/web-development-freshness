@@ -28,7 +28,7 @@ li {
 	border-top: 5px solid #3bafbe;
 }
 
-.content-max-width{
+.content {
 	max-width: 962px;
 	margin:0 auto;
 }
@@ -204,7 +204,53 @@ h3 {
 
 /* ----END OF SECTION---- */
 
-.article-header {
-	text-align: center;
+article {
+	padding: 50px 0;
 }
+
+.article-header {
+	padding:0 125px;
+}
+
+.article-header p {
+	text-align: center;
+	font-size: 22px;
+}
+
+.article-content {
+	display: inline;
+}
+
+.article-content-img {
+	width: 300px;
+	height: 90px;
+}
+
+.article-content-img div {
+	float: left;
+	border: 1px solid #d8d8d8;
+}
+
+.article-content-img div img {
+	padding: 3px;
+}
+.article-content-img h2 {
+	font-size: 13px;
+	color: #3bafbe;
+}
+
+.article-content-img p {
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
