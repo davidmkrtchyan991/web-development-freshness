@@ -1,0 +1,139 @@
+/*---------------
+	General
+----------------*/
+
+*   { 
+	 box-sizing: border-box;    
+     padding: 0;
+     margin: 0;
+    }
+ 
+/*---------------
+	Header
+----------------*/
+
+header {
+	background-image: url("../images/vsemarki.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.header-innerwrapper {
+	width: 1000px;
+	height: 645px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.logo {
+	margin-bottom: 100px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+nav {
+	margin-bottom: 235px;
+}
+nav ul li {
+	display:inline-block;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+nav ul li a {
+	text-decoration: none;
+	margin-left: 25px;
+	font-size: 42px;
+}
+nav ul li a:hover {
+	color:orange;
+}
+.arrow img {
+	width: 70px;
+    height: 70px;
+}
+
+.project {
+	height:650px;
+	width:100%;
+}
+h1 {
+	text-align: center;
+	padding-top: 25px;
+	font-size: 40px;
+}
+.floating-box {
+    float: left;
+    width: 371px;
+    height: 269px;
+    margin: 38px;
+} 
+.floating-box:hover {
+	color:white;
+}
+.floating-box img {
+	width: 371px;
+    height: 269px;
+}
+.about {
+	height:350px;
+	width:100%;
+	text-align:center;
+	margin-top:910px;
+	border:1px solid black;
+	border-right:hidden; 
+}
+h1 {
+	font-size: 78px;
+}
+.p {
+	margin-top: 47px;
+}
+.conection {
+	height:500px;
+	width:698px;
+	margin-top: 550px;
+	border:1px solid black;
+	border-bottom:hidden;
+	border-right:hidden;
+	border-left: hidden;
+	margin:0 auto;
+	margin-top:250px; 
+
+}
+input {
+	height:35px;
+	width:698px;
+	border:1px solid black;
+	margin-top: 7px;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+i {
+	margin:10px;
+	
+}
+.form {
+
+	text-align: center;
+	margin-top:25px;
+}
+
+.icons {
+	margin-left:150px; 
+
+}
+.button {
+    float: right; 
+}
+.end {
+	height:50px;
+	width:100%;
+	line-height: 50px;
+	background-color: orange;
+	text-align:center;
+}
