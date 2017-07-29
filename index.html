@@ -1,194 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>yx</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<meta charset="UTF-8"/>
+	<title>My first page</title>
+	<link  rel="stylesheet"  href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-	<div class="wrapper">
-		<div class="head_bg">
-			<div class="header">
-				<div class="logo">
-					<img src="images/logo.png" alt="logo" width="85" height="85">
-				</div>
-				<div class="head_nav_bar">
-					<ul>
-						<li>
-							<a href="#cont_for_scroll">проекты</a>
-						</li>
-						<li>
-							<a href="#under_for_scroll">о нас</a>
-						</li>
-						<li>
-							<a href="#feed_for_scroll">контакты</a>
-						</li>
-					</ul>
-				</div> <!-- End of head_nav_bar -->
-				<div class="arrow">
-					<a href="#cont_for_scroll">
-						<img src="images/v.png" alt="arrow" width="40" height="20">
-					</a>
-				</div>
-			</div> <!-- End of header -->
-		</div> <!-- End of head_bg -->
-		<div class="content" id="cont_for_scroll">
-			<div class="cont_h">
-				<h3>проекты</h3>
-			</div>
-			<div class="cont_gal">
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project1.jpg" alt="project1" width="373" height="272" class="gal_image">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
+	
+    <div class="page-wrapper">   
+	    <header>
+		    <div class="header-innerwrapper">
+			    <div class="logo"><img src="images/logo.jpg" alt="Logo"> </div>
+	          	<nav>   
+				    <ul class="primary-menu">
+				    	<li> <a href="#projects">проекты</a></li>
+				    	<li> <a href="#about">о нас</a></li>
+				    	<li> <a href="#conection">на связи</a></li>
+				    </ul>
+			    </nav>
+			    <div class="arrow"><a href="#projects"><img  src="images/arrow.jpg" alt="Arrow"></a></div>
+		    </div> <!--/header innerwrapper-->
+		 </header>
+
+		      	<div class="project" id="projects">
+		  			<h1>проекты</h1>
+		  				<div class="floating-box"><img src="images/bmw.jpg" alt="BMW"></div>
+						<div class="floating-box"><img src="images/audi.jpg" alt="Audi"></div>
+						<div class="floating-box"><img src="images/mercedes.jpg" alt="Mercedes"></div>
+						<div class="floating-box"><img src="images/rover.jpg" alt="Rover"></div>
+						<div class="floating-box"><img src="images/bugati.jpg" alt="Bugati"></div>
+						<div class="floating-box"><img src="images/mustang.jpg" alt="Mustang"></div>
+						<div class="floating-box"><img src="images/audi.jpg" alt="Audi"></div>
+						<div class="floating-box"><img src="images/lexus.jpg" alt="Lexus"></div>
+						<div class="floating-box"><img src="images/mustang.jpg" alt="Msutang"></div>	
+		 		</div>
+		 		<div class="about" id="about">
+		 			<h1 class="hah1">о нас</h1>
+		 				<p class="p">Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните<br> дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать<br> посетителям подробнее о себе.</p>
+		 		</div>
+		 		<div class="conection" id="conection">
+		 			<h1>на связи</h1>
+		 				<div class="form"><form action="/action_page.php">						    
+							    <input type="text" id="fname" name="firstname" placeholder="Name"><br>						    
+							    <input type="text" id="lname" name="lastname" placeholder="Email"><br>						    
+							    <input type="text" id="lname" name="lastname" placeholder="Subject"><br>
+	    						<input type="text" id="lname" name="lastname" placeholder="Messagge">	
+							</form>
 							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project2.jpg" alt="project2" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project3.jpg" alt="project3" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project4.jpg" alt="project4" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project5.jpg" alt="project5" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project6.jpg" alt="project6" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project7.jpg" alt="project7" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project8.jpg" alt="project8" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="cont_pic">
-					<a href="#">
-						<img src="images/project9.jpg" alt="project9" width="373" height="272" class="image_gal">
-						<div class="overlay">
-							<div class="image_text">
-								<h2>Проект 01</h2>
-								<p>Опишите изображение здесь.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div> <!-- End of cont_gal -->
-		</div> <!-- End of content -->
-		<div class="bg_zebra">
-			<!-- BACKGROUND IMAGE zebra -->
-		</div>
-		<div class="underzebra" id="under_for_scroll">
-			<div class="about_h">
-				<h3>о нас</h3>
-			</div>
-			<p>Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт. Здесь вы можете рассказать посетителям подробнее о себе.</p>
-		</div>
-		<div class="bg_central">
-			<!-- BACKGROUND IMAGE central -->
-		</div>
-		<div class="feedback" id="feed_for_scroll">
-			<div class="feedback_h">
-				<h3>на связи</h3>
-			</div>
-			<div class="feedback_form">
-				<form action=" ">
-					<input type="text" name="text" value="Name" size="95"> <br>
-					<input type="email" name="email" value="Email" size="95"> <br>
-					<input type="text" name="subject" value="Subject" size="95"> <br>
-					<textarea name="message" rows="5" cols="97"></textarea>
-					<input type="submit" name="send_button" value="Отправить" class="send_form">
-				</form>
-			</div>
-		</div> <!-- End of feedback -->
-		<div class="info_mysite">
-			<a href=" ">info@mysite.ru</a>
-		</div>
-		<div class="soc_icons">
-				<ul>
-					<li>
-						<a href="">
-							<img src="images/vk.png">
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<img src="images/fb.png">
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<img src="images/insta.png">
-						</a>
-					</li>
-				</ul>
-		</div>
-		<div class="footer">
-			<p>© 2023 Уличные художники. Сайт создан на <a href="https://ru.wix.com"> Wix.com</a></p>
-		</div>
-	</div> <!-- End of wrapper -->
+   							<div class="icons"> 	
+								<a href="#" class="ssilka">info@mister.ru</a>					 
+						        <i class="fa fa-odnoklassniki" style="font-size: 24px;"></i>
+								<i class="fa fa-facebook" style="font-size: 24px;"></i>
+								<i class="fa fa-instagram" style="font-size: 24px;"></i>
+							 <div class="button">   <button>Otpravit</button>
+							 </div>   		  
+		 		</div>
+		 	<!--/fotter-->
+		 <fotter>	
+		 		<div class="end">
+		 			© 2023 Уличные художники. Сайт создан на <a href="#">wix@.com</a>
+		 		</div>
+		 </fotter>		
+
+
+	</div> <!-- /page-wrapper-->	
+
+
 </body>	
+
 </html>
